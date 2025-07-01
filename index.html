@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-P5-TM20A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 20A 5to Primaria</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Que los estudiantes discutan el concepto de fiabilidad y robustez en sistemas de IA, comprendiendo que la IA puede fallar en situaciones inesperadas. Que analicen las posibles consecuencias de estos fallos y, en equipo, diseñen un "mini-juego de estrés" para probar los límites de la A.I. Lens, generando el plan de pruebas con Xolo.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡Saludo Interactivo con IA:</strong> Activación y personalización de la IA.</li>
+                                        <li><strong class="tactic-highlight">⚡"I Can Statement" + Ejemplificación:</strong> Clarificar objetivos y mostrar posibilidades.</li>
+                                        <li><strong class="tactic-highlight">⚡AI GYM:</strong> Aprendizaje guiado por IA sobre conceptos y diseño de pruebas.</li>
+                                        <li><strong class="tactic-highlight">⚡Brain Spark:</strong> Diseño conceptual del protocolo de pruebas en equipo.</li>
+                                        <li><strong class="tactic-highlight">⚡Gnius STORM:</strong> Compartición de planes de prueba y retroalimentación.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Un documento de diseño de "test de estrés" por equipo, que detalla el objetivo, procedimiento y métrica para al menos tres pruebas de fiabilidad de la IA.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Acceso a MakeCode (<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>).</li>
+                                        <li>Chat "Agente Gnius" (Xolo) activo y funcionando.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-12).</li>
+                                        <li>1 Nezha Pro Sports Kit por equipo de 4 estudiantes (con robot funcional).</li>
+                                        <li>Papel y lápiz o documento digital para diseñar el protocolo.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet y MakeCode.</li>
+                                                <li>Tener los robots de los equipos listos.</li>
+                                                <li>Tener la presentación de diapositivas (1-12) lista y en orden.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisa el flujo de la sesión, los diálogos y los tiempos.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 3 minutos</h2>
+                <p>Crea un ambiente acogedor y activa a la IA para la sesión sobre fiabilidad y pruebas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida e Instrucción ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) Da la bienvenida a los alumnos y guíalos para que activen a Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Hola, ingenieros de pruebas y cazadores de errores! Hoy vamos a explorar los límites de nuestra IA. Antes de empezar, activen a nuestro copiloto, Xolo. Por favor, salúdenlo en el chat y díganle su nombre y sus gustos.</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Verificación de Interacción ⏰ 2 minutos</h3>
+                            <p>Monitorea la interacción de los alumnos con la IA, asegurándote de que todos reciban el saludo de bienvenida.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Excelente! Veo que Xolo les está contestando y está listo para la misión. Si Xolo no les ha respondido, ¡avísame!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: I Can Statement + Ejemplificación ⏰ 7 minutos</h2>
+                <p>Presenta el concepto de fiabilidad y robustez a través de un escenario concreto.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Planteando el Escenario - El Partido Real ⏰ 4 minutos</h3>
+                            <p>(Proyectar Diapositiva 4) Describe el escenario del partido para introducir los conceptos de fiabilidad y robustez.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Imaginen a nuestro robot pateador en medio de un partido real. La pelota se mueve rápido, hay otros jugadores, la iluminación cambia... ¿Creen que la A.I. Lens funcionaría tan bien como en nuestras pruebas? Hoy hablaremos de **fiabilidad** (¿funciona como se espera?) y **robustez** (¿aguanta situaciones inesperadas?). Entender los puntos débiles de una IA es tan importante como conocer sus fortalezas. Nuestro objetivo será diseñar un 'test de estrés' para encontrar esos puntos débiles."</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: "I Can Statement" ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) Presenta el objetivo concreto de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Hoy nos convertiremos en inspectores de calidad de la IA. Al final de esta sesión, podrán decir: 'Yo entiendo por qué la fiabilidad de la IA es importante y mi equipo ha diseñado un mini-juego para probar los límites y posibles fallos de la visión de nuestro robot.'"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: AI GYM ⏰ 15 minutos</h2>
+                <p>Guía a los alumnos para que aprendan con Xolo sobre los fallos de la IA y cómo diseñar un test de estrés.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Concepto Clave - Casos Límite ('Edge Cases') ⏰ 7 minutos</h3>
+                            <p>(Proyectar Diapositiva 5) Indica a los alumnos que interactúen con Xolo para entender el concepto.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Es hora de entrar al AI GYM! Pídele a Xolo que les explique por qué las IAs del mundo real fallan y qué son los 'casos límite'. Escriban en el chat: <strong>'Mi perfil es [escribe aquí tu perfil] y quiero que me enseñes sobre la confiabilidad, los fallos y los 'casos límite' en la IA.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Diseño del "Mini-Juego de Estrés" ⏰ 8 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) Guía la lluvia de ideas con las preguntas de Xolo para diseñar el test conceptual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">No necesitamos un plan de código nuevo, usaremos un robot que ya funciona. Lo que diseñaremos es el protocolo de prueba. Xolo nos guiará con una lluvia de ideas para el test. Pensemos en: ¿Cómo probamos la velocidad? ¿Si tapamos el objeto? ¿Si hay distracciones? ¿Si cambia la luz? ¿Si el fondo es parecido?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark ⏰ 10 minutos</h2>
+                <p>Proceso de diseño en equipo del protocolo de pruebas de estrés.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Diseño del Protocolo en Equipo ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositiva 8) Organiza a los alumnos en sus equipos de 4 y guíalos para que diseñen su "circuito de tortura".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">¡Muy bien, es hora del Brain Spark! "Ahora, en sus equipos de 4, diseñen su propio 'circuito de tortura' para la IA. Elijan al menos tres de las pruebas que discutimos. Para cada prueba, definan en un papel o documento: 1. El Objetivo (¿Qué queremos descubrir?). 2. El Procedimiento (¿Cómo lo haremos?). 3. La Métrica (¿Cómo medimos el resultado?)."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
+                <p>Comparte los diseños de los tests de estrés y reflexiona sobre la "culpa" en los fallos de la IA.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Anuncio de Planes de Prueba ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 10) Pide a un portavoz de cada equipo que presente las pruebas de estrés que diseñaron.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                     ¡Llegamos al Gnius STORM! Pide a un portavoz de cada equipo que presente las tres pruebas de estrés que diseñaron para su robot.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Reflexión Grupal ⏰ 2 minutos</h3>
+                            <p>Lanza una pregunta de reflexión para toda la clase.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">
+                                    ¡Geniales planes! Ahora, una pregunta para todos: <strong>"Si descubren que su IA falla en una de estas pruebas, ¿de quién es la 'culpa'? ¿De la IA, de la cámara, de los programadores, del entorno? ¿O de todos un poco?"</strong> (Escucha un par de respuestas).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Cierre y Próximos Pasos ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 12) Cierra la sesión y conecta con la siguiente clase.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"¡Excelentes planes de prueba! Han adoptado la mentalidad de un verdadero ingeniero de sistemas. En la próxima sesión, ejecutarán estos tests. No se sorprendan si su IA falla... ¡de hecho, esperen que lo haga! Porque cada fallo es una oportunidad de aprendizaje. ¡Preparen sus cronómetros y sus libretas de anotaciones!"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
